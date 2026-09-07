@@ -114,9 +114,3 @@ apex-atelier/
 ├── vite.config.js          # Configuração do Vite e plugins
 └── README.md               # Documentação do projeto
 ```
-
----
-
-## 📞 Contato e Atendimento
-- **WhatsApp Apex Atelier**: `+55 19 98243-6103`
-- Todas as solicitações de serviços e orçamentos do carrinho são despachadas diretamente para este número de atendimento.
