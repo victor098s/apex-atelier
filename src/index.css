@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=Syne:wght@500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-background: #121317;
+  --color-on-background: #e3e2e8;
+  --color-surface: #121317;
+  --color-surface-dim: #121317;
+  --color-surface-bright: #38393e;
+  --color-surface-container-lowest: #0d0e12;
+  --color-surface-container-low: #1a1b20;
+  --color-surface-container: #1f1f24;
+  --color-surface-container-high: #292a2e;
+  --color-surface-container-highest: #343439;
+  --color-on-surface: #e3e2e8;
+  --color-on-surface-variant: #d4c4b0;
+  --color-inverse-surface: #e3e2e8;
+  --color-inverse-on-surface: #2f3035;
+  --color-outline: #9d8f7c;
+  --color-outline-variant: #504535;
+  --color-surface-tint: #fabc4d;
+  --color-primary: #ffc665;
+  --color-on-primary: #432c00;
+  --color-primary-container: #e5a93c;
+  --color-on-primary-container: #5e4000;
+  --color-inverse-primary: #7e5700;
+  --color-primary-fixed: #ffdead;
+  --color-primary-fixed-dim: #fabc4d;
+  --color-on-primary-fixed: #281900;
+  --color-on-primary-fixed-variant: #604100;
+  --color-secondary: #c1c7d1;
+  --color-on-secondary: #2b3139;
+  --color-secondary-container: #434a52;
+  --color-on-secondary-container: #b3b9c3;
+  --color-secondary-fixed: #dde3ed;
+  --color-secondary-fixed-dim: #c1c7d1;
+  --color-on-secondary-fixed: #161c23;
+  --color-on-secondary-fixed-variant: #41474f;
+  --color-tertiary: #ffbfbe;
+  --color-on-tertiary: #680013;
+  --color-tertiary-container: #ff9696;
+  --color-on-tertiary-container: #90001e;
+  --color-tertiary-fixed: #ffdad9;
+  --color-tertiary-fixed-dim: #ffb3b2;
+  --color-on-tertiary-fixed: #410008;
+  --color-on-tertiary-fixed-variant: #92001f;
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+  --color-surface-variant: #343439;
+
+  /* Fonts */
+  --font-syne: 'Syne', sans-serif;
+  --font-outfit: 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Spacing */
+  --spacing-space-3xs: 0.125rem;
+  --spacing-space-2xs: 0.25rem;
+  --spacing-space-xs: 0.5rem;
+  --spacing-space-sm: 0.75rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2rem;
+  --spacing-space-2xl: 3rem;
+  --spacing-space-3xl: 4rem;
+  --spacing-space-4xl: 6rem;
+  --spacing-space-5xl: 8rem;
+  --spacing-gutter-desktop: 2rem;
+  --spacing-gutter-tablet: 1.5rem;
+  --spacing-gutter-mobile: 1rem;
+  --spacing-margin-desktop: 4rem;
+  --spacing-margin-tablet: 2rem;
+  --spacing-margin-mobile: 1.25rem;
+
+  /* Border Radius */
+  --radius-DEFAULT: 0.25rem;
+  --radius-sm: 0.125rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  body {
+    background-color: #121317;
+    color: #e3e2e8;
+    font-family: 'Outfit', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: #ffc665;
+    color: #432c00;
+  }
+}
